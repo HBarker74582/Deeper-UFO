@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> UFO MadnessQ!</title>
+        <title> UFO Madness!</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -28,8 +28,23 @@
 
         </div>
         <div>
-            <h3>Latest Mars News </h3>
-            <h4 class="card-title"> {{ ufo_data.short_description }}</h4>
+            <h3>Sightings </h3>
+            <h4 class="card-title"> </h4>
+            <h6 class="card-subtitle mb-2 text-muted"> </h6>
+
 
         </div>
+        <div class="col-md-12">
+            <div id="bubble"></div>
+        </div>
+        <div class="col-md-12">
+            <h3>Sightings </h3>
+            <div id="scatter"></div>
+        </div>
+        <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="{{ url_for('static', filename='js/heather.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+        <!-- <script src="static/js/app.js"></script> -->
     </body>
