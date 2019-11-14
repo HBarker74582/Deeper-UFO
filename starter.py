@@ -21,7 +21,7 @@ sightings = sightings_count_df.to_dict(orient = 'records')
 word = word_count_df.to_dict(orient ='records')
 # LOAD DICTIONARIES TO COLLECTIONS
 alien_collection.insert_many(alien)
-military_collection.insert_many(military)
+military_basescollection.insert_many(military)
 sightings_collection.insert_many(sightings)
 word_collection.insert_many(word)
 
