@@ -89,17 +89,16 @@ def sightings():
         sightings_json.append(sightings_dict)
     return jsonify(sightings_json)
 
-@app.route("word_cloudusatotals")
-def word ():
+@app.route("/word_cloudusatotals")
+def word():
     word_collection = mongo.db.word_cloudusatotals.find({})
     word_json = []
     for json in word_collection:
         word_dict = {}
         word_dict.update({
-            "word": json['word"],
-            "count": json["count"],
-    })
-        word_json.append.(word_dict)
+            "word": json["word"],
+            "count": json["count"] })
+        word_json.append(word_dict)
     return jsonify(word_json)
 
 if __name__ == "__main__":
