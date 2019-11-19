@@ -4,7 +4,7 @@ import requests
 import json
 
 # Import our pymongo library, which lets us connect our Flask app to our Mongo database.
-from flask_pymongo import PyMongo
+from flask_pymongo import pymongo
 import pandas as pd
 
 
@@ -12,8 +12,14 @@ import pandas as pd
 app = Flask(__name__)
 
 # Use flask_pymongo to set up mongo connection
-app.config["MONGO_URI"] = "mongodb://localhost:27017/UFO"
-mongo = PyMongo(app)
+#app.config["MONGO_URI"] = "mongodb://localhost:27017"
+#mongo = PyMongo(app)
+
+# DATABASE CONNECTION-MONGO DB
+conn = "mongodb://localhost:27017"
+client = pymongo.MongoClient(conn)
+mongo = client.UFO
+
 
 @app.route("/")
 def index():
@@ -46,10 +52,46 @@ def data():
             "sighting_date" : json["sighting_date"]
 
         })
+        
         alien_data_json.append(alien_data_dict)
 
     return jsonify(alien_data_json)
+    
+@app.route("/mapping_data")
+def data_new():
+    
+    
+    # Select columns 'state_long'  and 'mj_legal' from 'alien_data' collection where 'state_long' not equal to ""
+    # adding _id:0 to remove _id from the dataframe.Then removing duplicates from dataframe.
+    mj_legal_df = pd.DataFrame(list(mongo.db.alien_data.find( { "state_long": { "$ne": "" } }, { "_id":0, "state_long": 1, "mj_legal": 1 } )))
+    mj_legal_df_unique = mj_legal_df.drop_duplicates()
 
+    # Select columns 'state_long' and 'operational_status' from 'military_bases' collection where 'state_long' not equal to "" and 'operational_status' is equal to active.
+    # adding _id:0 to remove _id from the dataframe. Do groupby based on column 'state_long' and take count.
+    miltary_bases_df = pd.DataFrame(list(mongo.db.military_bases.find( { "state_long": { "$ne": "" }, "operational_status": "Active" },{ "_id":0, "state_long": 1, "operational_status": 1 } )))
+    miltary_bases_count = miltary_bases_df.groupby('state_long').count()
+
+    # sightings_count_df = pd.DataFrame(list(mongo.db.sightings_count.find( { "state_long": { "$ne": "USA" } }, { "_id":0, "state_long": 1, "sightings_total": 1 } )))
+    # Select columns 'state_long', 'state_short' and 'sighings_total' from 'sightings_count' collection where 'state_long' not equal to 'USA'
+    sightings_count_df = pd.DataFrame(list(mongo.db.sightings_count.find( { "state_long": { "$ne": "USA" } }, { "_id":0, "state_long": 1, "state_short":1, "sightings_total": 1 } )))
+    # combining dataframes 'miltary_bases_count' and 'sightings_count_df'
+    combined_1_df = pd.merge(miltary_bases_count,sightings_count_df, on='state_long')
+    # combining dataframe 'combined_1_df' and 'mj_legal_df_unique'
+    combined_df = pd.merge(combined_1_df,mj_legal_df_unique, on='state_long')
+    #print(combined_df)
+    #print(type(combined_df)) 
+    # converting dataframe to json(but it was in string format)
+    combined_df_json = combined_df.to_json(orient='records')
+    #print(combined_df_json)
+    #print(type(combined_df_json)) 
+    # string to json
+    combined_df_json_final = json.loads(combined_df_json)
+    #print(combined_df_json_final) 
+    
+    return jsonify(combined_df_json_final)
+
+
+    
 @app.route("/military")
 def military():
     military_basescollection = mongo.db.military_bases.find({})
@@ -110,6 +152,22 @@ def word_cloud():
 
     return jsonify(word_cloud_json)
 
+
+@app.route("/word_cloudusatotals")
+def word():
+    word_collection = mongo.db.word_cloud_usatotals.find({})
+    word_json = []
+    for json in word_collection:
+        word_dict = {}
+        word_dict.update({
+            "word": json["word"],
+            "count": json["count"] })
+        word_json.append(word_dict)
+    return jsonify(word_json)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
+
+
 
