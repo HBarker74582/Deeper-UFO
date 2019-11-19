@@ -41,7 +41,6 @@
 39,Alaska,AK,Eielson AFB,Active,AF Active,64.67409109,-147.0602874,United States
 40,Alaska,AK,King Salmon Airport,Active,AF Active,58.68591077,-156.6472827,United States
 41,Alaska,AK,Birch Lake Recreation Annex,Active,AF Active,64.31753777,-146.6469809,United States
-42,Alaska,AK,North River Radio Relay Site,Inactive,AF Active,0,0,United States
 43,Arizona,AZ,MCAS Yuma,Active,MC Active,32.64539667,-114.6022408,United States
 44,Arizona,AZ,Yuma Proving Ground,Active,Army Active,33.07681517,-114.1941243,United States
 45,Arizona,AZ,NAVOBSSTA Flagstaff,Active,Navy Active,35.18758396,-111.7415955,United States
@@ -140,7 +139,6 @@
 138,California,CA,Presidio Of Monterey,Active,Army Active,36.60325429,-121.9121016,United States
 139,California,CA,MCLB Barstow,Active,MC Active,34.85953615,-116.9445189,United States
 140,California,CA,Travis AFB,Active,AF Active,38.26729248,-121.9417629,United States
-141,California,CA,NB Point Loma,Active,Navy Active,0,0,United States
 142,California,CA,Fort Hunter Liggett,Active,Army Reserve,35.95558976,-121.2539529,United States
 143,California,CA,Channel Islands ANGS,Active,AF Guard,34.13879615,-119.1111036,United States
 144,California,CA,NB Coronado Imperial Beach,Active,Navy Active,32.56240313,-117.1120098,United States
@@ -176,7 +174,6 @@
 174,Florida,FL,Arbuckle Airfield,Active,AF Active,27.65016852,-81.34373371,United States
 175,Florida,FL,NOLF Holley,Active,Navy Active,30.42500665,-86.89285392,United States
 176,Florida,FL,FLC Fuel Depot Heckscher,Active,Navy Active,30.40097853,-81.62968261,United States
-177,Florida,FL,Eglin AFB,Active,AF Active,0,0,United States
 178,Florida,FL,Cape San Blas Tracking Annex D-3,Active,AF Active,29.67567753,-85.34710044,United States
 179,Florida,FL,NSA Panama City,Active,Navy Active,30.17268449,-85.75215328,United States
 180,Florida,FL,Whiting Pines,Active,Navy Active,30.62594394,-87.06086064,United States
@@ -201,7 +198,6 @@
 199,Florida,FL,OLF Whitehouse,Active,Navy Active,30.35533303,-81.86981079,United States
 200,Florida,FL,Tyndall AFB,Active,AF Active,30.04481902,-85.54892759,United States
 201,Florida,FL,NAS Jacksonville,Active,Navy Active,30.22151037,-81.68862878,United States
-202,Florida,FL,NAS Pensacola,Active,Navy Active,0,0,United States
 203,Florida,FL,Avon Park AF Range,Active,AF Active,27.64699864,-81.27718119,United States
 204,Florida,FL,OLF Bronson,Active,Navy Active,30.38373151,-87.41415148,United States
 205,Florida,FL,Eglin Afb Site 2 (Santa Rosa Island),Active,AF Active,30.39446079,-86.74274189,United States
@@ -231,13 +227,11 @@
 229,Georgia,GA,Cumming,Active,Army Guard,34.22433404,-84.11305159,United States
 230,Hawaii,HI,Pupukea Paalaa Uka Mil Road,Active,Army Active,19.96924286,-155.7196588,United States
 231,Hawaii,HI,Waikele,Active,Navy Active,21.41060792,-158.0198022,United States
-232,Hawaii,HI,Pearl City,Active,Navy Active,0,0,United States
 233,Hawaii,HI,MCB Hawaii Puuloa-Oahu,Active,MC Active,21.31758198,-157.9877499,United States
 234,Hawaii,HI,Hickam Petrol Strg Ann,Active,Navy Active,21.4378728,-158.0061627,United States
 235,Hawaii,HI,MCB Hawaii Kaneohe,Active,MC Active,21.44529318,-157.7511944,United States
 236,Hawaii,HI,NG Kalaeloa,Active,Army Guard,21.31926825,-158.0624939,United States
 237,Hawaii,HI,PACMISRANFAC Hawaiian Area,Active,Navy Active,22.0251402,-159.773325,United States
-238,Hawaii,HI,Schofield Bks Military Reservation,Active,Army Active,0,0,United States
 239,Hawaii,HI,Fort Shafter,Active,Army Active,21.34585677,-157.883408,United States
 240,Hawaii,HI,Kawaihae Military Reserve,Active,Army Active,20.03084179,-155.82887,United States
 241,Hawaii,HI,MC Trng Area Bellows,Active,MC Active,21.36192499,-157.7178776,United States
@@ -262,7 +256,6 @@
 260,Hawaii,HI,MCB Hawaii Pearl City Annex,Active,MC Active,21.38353054,-157.9713824,United States
 261,Hawaii,HI,CSO Barbers Point,Inactive,Navy Active,21.3122293,-158.0660923,United States
 262,Hawaii,HI,USA Field Station Kunia,Active,Army Active,21.47397729,-158.0542317,United States
-263,Hawaii,HI,Aliamanu Military Reservation,Active,Army Active,0,0,United States
 264,Hawaii,HI,JBPHH Pearl Harbor HI,Active,Navy Active,21.3364989,-157.947891,United States
 265,Hawaii,HI,Fort De Russy,Active,Army Active,21.28184986,-157.8339101,United States
 266,Hawaii,HI,Helemano Military Reservation,Active,Army Active,21.53756646,-158.020045,United States
@@ -311,7 +304,6 @@
 309,Kentucky,KY,NG Frankfort Boone NG Center,Active,Army Guard,38.18572722,-84.90847848,United States
 310,Kentucky,KY,Fort Knox,Active,Army Active,37.90683478,-85.88286443,United States
 311,Louisiana,LA,NG Camp Villere,Active,Army Guard,30.32335312,-89.80852563,United States
-312,Louisiana,LA,Fort Polk,Active,Army Active,0,0,United States
 313,Louisiana,LA,Camp Minden TS,Active,Army Guard,32.55892028,-93.39405347,United States
 314,Louisiana,LA,Barksdale AFB,Active,AF Active,32.50028096,-93.59994134,United States
 315,Louisiana,LA,NG Beauregard Training Range,Active,Army Guard,31.43931953,-92.29548011,United States
@@ -368,7 +360,6 @@
 366,Massachusetts,MA,NAVPRO Pittsfield,Active,Navy Active,42.46229103,-73.2045254,United States
 367,Michigan,MI,CTC Fort Custer Trng Center,Active,Army Guard,42.29942537,-85.31771753,United States
 368,Michigan,MI,NG Lansing Headquarters Complex,Active,Army Guard,42.76814806,-84.57130826,United States
-369,Michigan,MI,MTC-H Camp Grayling,Active,Army Guard,0,0,United States
 370,Michigan,MI,Detroit Arsenal,Active,Army Active,42.49733672,-83.04133841,United States
 371,Michigan,MI,NG Grayling Airfield,Active,Army Guard,44.68164244,-84.7276787,United States
 372,Michigan,MI,Selfridge ANGB,Active,AF Guard,42.61233319,-82.83563034,United States
@@ -380,7 +371,7 @@
 378,Minnesota,MN,Camp Ripley,Active,Army Guard,46.21081888,-94.42526758,United States
 379,Minnesota,MN,NG St Cloud Armory,Active,Army Guard,45.56487604,-94.17741874,United States
 380,Minnesota,MN,Duluth IAP,Active,AF Guard,46.8447953,-92.17756144,United States
-381,Mississippi,MS,"Jackson IAP, Thompson Field",Active,AF Guard,32.32518156,-90.08256099,United States
+381,Mississippi,MS,Jackson IAP  Thompson Field,Active,AF Guard,32.32518156,-90.08256099,United States
 382,Mississippi,MS,CBC Gulfport,Active,Navy Active,30.37794812,-89.1263994,United States
 383,Mississippi,MS,MTA Camp Shelby,Active,Army Guard,31.09024639,-89.00686774,United States
 384,Mississippi,MS,NAS Meridian,Active,Navy Active,32.55310548,-88.56944501,United States
@@ -396,7 +387,6 @@
 394,Missouri,MO,Lake City AAP,Active,Army Active,39.09675916,-94.25057938,United States
 395,Missouri,MO,NG TS Ike Skelton Jefferson City,Active,Army Guard,38.55152739,-92.06843539,United States
 396,Missouri,MO,NG MTA Camp Clark Nevada,Active,Army Guard,37.82030057,-94.29147231,United States
-397,Missouri,MO,Fort Leonard Wood,Active,Army Active,0,0,United States
 398,Missouri,MO,Whiteman AFB,Active,AF Active,38.73012656,-93.55850585,United States
 399,Missouri,MO,Rosecrans MAP (139AG),Active,AF Guard,39.76657537,-94.90199881,United States
 400,Missouri,MO,NG Macon TS,Active,Army Guard,39.67300911,-92.50224868,United States
@@ -404,7 +394,6 @@
 402,Missouri,MO,MTA Camp Crowder Neosho,Active,Army Guard,36.79396971,-94.3643199,United States
 403,Missouri,MO,St Louis AFS,Active,AF Active,38.59121945,-90.20834282,United States
 404,Montana,MT,NG Helena Aviation RC- AASF,Active,Army Guard,46.60847156,-111.9710414,United States
-405,Montana,MT,MTA Fort Wm Henry Harrison,Active,Army Guard,0,0,United States
 406,Montana,MT,NG MTA Limestone Hills,Active,Army Guard,46.27388982,-111.5797543,United States
 407,Montana,MT,Malmstrom AFB,Active,AF Active,47.50585779,-111.1825898,United States
 408,Montana,MT,Great Falls IAP,Active,AF Guard,47.4765456,-111.3649796,United States
@@ -489,8 +478,6 @@
 487,North Carolina,NC,MCB Camp Lejeune West Site,Active,MC Active,34.62196287,-77.49924429,United States
 488,North Carolina,NC,OLF Atlantic,Active,MC Active,34.89485174,-76.34941856,United States
 489,North Carolina,NC,Dare County Range,Active,AF Active,35.71448747,-75.87856208,United States
-490,North Carolina,NC,Point Of Marsh Target,Active,MC Active,0,0,United States
-491,North Carolina,NC,Fort Bragg,Active,Army Active,0,0,United States
 492,North Carolina,NC,Charlotte/Douglas IAP,Active,AF Guard,35.21633611,-80.92986204,United States
 493,North Carolina,NC,ALF Bogue,Active,MC Active,34.69285056,-77.02868256,United States
 494,North Carolina,NC,MTA Camp Butner,Active,Army Guard,36.20119607,-78.80061484,United States
@@ -622,7 +609,6 @@
 620,Texas,TX,NAS Corpus Christi,Active,Navy Active,27.69244829,-97.28100555,United States
 621,Texas,TX,Sheppard AFB,Active,AF Active,33.98455239,-98.49969368,United States
 622,Texas,TX,Camp Swift,Active,Army Guard,30.26167609,-97.29456428,United States
-623,Texas,TX,NAS Kingsville,Active,Navy Active,0,0,United States
 624,Texas,TX,Randolph AFB,Active,AF Active,29.53037629,-98.27969046,United States
 625,Texas,TX,Laughlin AFB Aux 1,Active,AF Active,29.11838653,-100.4722935,United States
 626,Texas,TX,ALF Cabaniss,Active,Navy Active,27.70191596,-97.43645847,United States
@@ -649,7 +635,6 @@
 647,Virginia,VA,Fort A P Hill,Active,Army Active,38.11800449,-77.27595807,United States
 648,Virginia,VA,Craney Island,Active,Navy Active,36.88878566,-76.36055537,United States
 649,Virginia,VA,Yorktown Fuel Depot,Active,Navy Active,37.21592375,-76.48614127,United States
-650,Virginia,VA,Langley AFB,Active,AF Active,0,0,United States
 651,Virginia,VA,NSA Norfolk NW Chesapeake,Active,Navy Active,36.55909852,-76.26748549,United States
 652,Virginia,VA,Fort Myer,Active,Army Active,38.87861708,-77.07571308,United States
 653,Virginia,VA,ALF Fentress Chesapeake,Active,Navy Active,36.69442513,-76.13298916,United States
@@ -660,7 +645,6 @@
 658,Virginia,VA,Arlington Service Center,Active,Navy Active,38.86773485,-77.07933502,United States
 659,Virginia,VA,NSA Norfolk NSY,Active,Navy Active,36.81647732,-76.29930957,United States
 660,Virginia,VA,Fort Monroe,Active,Army Active,37.01291775,-76.30442738,United States
-661,Virginia,VA,Fort Belvoir,Active,Army Active,0,0,United States
 662,Virginia,VA,MCB Quantico,Active,MC Active,38.55207459,-77.45719574,United States
 663,Virginia,VA,NS Norfolk,Active,Navy Active,36.94331576,-76.30142135,United States
 664,Virginia,VA,NAS Oceana NEXCOM Headquarters,Active,Navy Active,36.84397726,-76.08421438,United States
@@ -685,15 +669,13 @@
 683,Virginia,VA,Arlington National Cemetery,Active,Army Active,38.87816573,-77.06993227,United States
 684,Virginia,VA,Naval Medical Center Portsmouth,Active,Navy Active,36.8459831,-76.30775338,United States
 685,Virginia,VA,NSA Norfolk South Gate,Active,Navy Active,36.80368804,-76.29543661,United States
-686,Virginia,VA,"Fort Pickett, ARNG MTC",Active,Army Guard,37.03675273,-77.90931728,United States
+686,Virginia,VA,Fort Pickett ARNG MTC,Active,Army Guard,37.03675273,-77.90931728,United States
 687,Washington,WA,Manchester,Active,Navy Active,47.56586855,-122.5464924,United States
-688,Washington,WA,Yakima Training Center,Active,Army Active,0,0,United States
 689,Washington,WA,Keyport NUWC,Active,Navy Active,47.69734306,-122.6217731,United States
 690,Washington,WA,Marysville,Active,Navy Active,48.12370591,-122.1710503,United States
 691,Washington,WA,Bremerton,Active,Navy Active,47.55544268,-122.6529181,United States
 692,Washington,WA,NS Everett,Active,Navy Active,47.98834227,-122.2232828,United States
 693,Washington,WA,NG Bremerton,Active,Army Guard,47.55271861,-122.6813516,United States
-694,Washington,WA,Fort Lewis,Active,Army Active,0,0,United States
 695,Washington,WA,Jim Creek,Active,Navy Active,48.19977129,-121.9256664,United States
 696,Washington,WA,NAVMAG Indian Island,Active,Navy Active,48.05367029,-122.7261484,United States
 697,Washington,WA,OLF Coupeville,Active,Navy Active,48.18959499,-122.6324274,United States

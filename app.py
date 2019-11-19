@@ -26,6 +26,10 @@ def index():
     # Redirect back to home page
     return redirect("/")
 
+# @app.route("/mongo_data")
+# def import_csvfile():
+#     ufo_data = mongo.db.ufo1
+
 @app.route("/alien_data")
 def data():
     alien_collection = mongo.db.alien_data.find({})
@@ -43,6 +47,7 @@ def data():
 
         })
         alien_data_json.append(alien_data_dict)
+
     return jsonify(alien_data_json)
 
 @app.route("/military")
@@ -89,6 +94,21 @@ def sightings():
         sightings_json.append(sightings_dict)
     return jsonify(sightings_json)
 
+@app.route("/word_cloud")
+def word_cloud():
+    word_cloud_collection = mongo.db.word_cloud_usatotals.find({})
+   # print([json for json in word_cloud_collection])
+    word_cloud_json = []
+    for json in word_cloud_collection:
+        word_cloud_dict = {}
+        word_cloud_dict["word"] =  json["word"]
+        word_cloud_dict.update({
+            "word": json["word"],
+            "count": json["count"]
+    })
+        word_cloud_json.append(word_cloud_dict)
+
+    return jsonify(word_cloud_json)
 
 if __name__ == "__main__":
     app.run(debug=True)
